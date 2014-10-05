@@ -46,7 +46,7 @@ namespace Screen_Management_Library.Controls
             ControlManager.spriteFont = spriteFont;
         }
 
-        public void Update(GameTime gameTime, PlayerIndex playerIndex)
+        public void Update(GameTime gameTime)
         {
             if (Count == 0)
                 return;
@@ -55,7 +55,7 @@ namespace Screen_Management_Library.Controls
                 if (c.Enabled)
                     c.Update(gameTime);
                 if (c.HasFocus)
-                    c.HandleInput(playerIndex);
+                    c.HandleInput();
             }
 
             if (!AcceptInput)

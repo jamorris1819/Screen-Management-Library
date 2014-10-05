@@ -62,6 +62,17 @@ namespace Screen_Management_Library
             gameStates.Pop();
         }
 
+        public void PushState(GameState newState)
+        {
+            drawOrder += drawOrderInc;
+            newState.DrawOrder = drawOrder;
+
+            AddState(newState);
+
+            if (OnStateChange != null)
+                OnStateChange(this, null);
+        }
+
         private void AddState(GameState newState)
         {
             gameStates.Push(newState);
@@ -69,7 +80,7 @@ namespace Screen_Management_Library
             OnStateChange += newState.StateChange;
         }
 
-        private void ChangeState(GameState newState)
+        public void ChangeState(GameState newState)
         {
             while (gameStates.Count > 0)
                 RemoveState();

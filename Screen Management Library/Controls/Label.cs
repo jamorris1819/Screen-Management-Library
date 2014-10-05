@@ -24,7 +24,7 @@ namespace Screen_Management_Library.Controls
             spriteBatch.DrawString(SpriteFont, Text, Position, Color);
         }
 
-        public override void HandleInput(PlayerIndex playerIndex)
+        public override void HandleInput()
         {
         }
     }
