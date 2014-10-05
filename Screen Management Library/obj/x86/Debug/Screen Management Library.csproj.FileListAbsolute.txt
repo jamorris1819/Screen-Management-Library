@@ -1,0 +1,5 @@
+C:\Users\Jacob 2\Documents\GitHub\Screen-Management-Library\Screen Management Library\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jacob 2\Documents\GitHub\Screen-Management-Library\Screen Management Library\obj\x86\Debug\Screen Management Library.dll
+C:\Users\Jacob 2\Documents\GitHub\Screen-Management-Library\Screen Management Library\obj\x86\Debug\Screen Management Library.pdb
+C:\Users\Jacob 2\Documents\GitHub\Screen-Management-Library\Screen Management Library.dll
+C:\Users\Jacob 2\Documents\GitHub\Screen-Management-Library\Screen Management Library.pdb
